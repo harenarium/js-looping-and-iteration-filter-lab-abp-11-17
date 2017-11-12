@@ -15,6 +15,10 @@ function fuzzyMatch(drivers, string){
 //each element of the `drivers` array is a JavaScript object that has a property of `name`
 //return each element whose `name` property matches the provided `string` argument.
 function matchName(drivers, string){
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> ce592f23b1a9babd8979bb6191553398ca23f2d2
   return drivers.filter(function(thing) {return thing.name === string})
 }
